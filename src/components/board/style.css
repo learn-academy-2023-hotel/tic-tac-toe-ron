@@ -1,0 +1,80 @@
+  @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+
+
+:root {
+	--board-background: none;
+	--border-color: #1c77df;
+	--border-thickness: 5px;
+}
+
+.board {
+	width: 30vw;
+	height: 50%;
+	background-color: black;
+	display: flex;
+	align-items: flex-start;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.input {
+	height: 33.33%;
+	width: 33.33%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: whitesmoke;
+	font-family: 'Rock Salt', cursive;
+	font-style: italic;
+	font-weight: 700;
+	font-size: 4rem;
+}
+
+.input-1 {
+	border-right: var(--border-thickness) solid
+		var(--border-color);
+	border-bottom: var(--border-thickness) solid
+		var(--border-color);
+}
+
+.input-2 {
+	border-right: var(--border-thickness) solid
+		var(--border-color);
+	border-bottom: var(--border-thickness) solid
+		var(--border-color);
+}
+
+.input-3 {
+	border-bottom: var(--border-thickness) solid
+		var(--border-color);
+}
+
+.input-4 {
+	border-right: var(--border-thickness) solid
+		var(--border-color);
+	border-bottom: var(--border-thickness) solid
+		var(--border-color);
+}
+
+.input-5 {
+	border-right: var(--border-thickness) solid
+		var(--border-color);
+	border-bottom: var(--border-thickness) solid
+		var(--border-color);
+}
+
+.input-6 {
+	border-bottom: var(--border-thickness) solid
+		var(--border-color);
+}
+
+.input-7 {
+	border-right: var(--border-thickness) solid
+		var(--border-color);
+}
+
+.input-8 {
+	border-right: var(--border-thickness) solid
+		var(--border-color);
+}
